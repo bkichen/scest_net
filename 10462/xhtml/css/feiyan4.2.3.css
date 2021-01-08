@@ -1,0 +1,70 @@
+.fk_head {
+    position: relative;
+}
+.headSous {
+    width: 270px;
+    margin: 0 auto;
+}
+.headSous{
+    position: absolute;
+    right: 0;
+    bottom: 10px;
+    background-image: url(../images/yqzt_yuanj.png);
+    background-repeat: no-repeat;
+}
+.headSous span {
+    float: left;
+}
+
+.zybs_ul dd{
+width:100%;
+}
+.fk_dl LI{
+width:100%;
+}
+.scxd_ul DD{
+width:484px;
+}
+
+
+.fk_tit h3{
+    width: 140px;
+    padding-left: 18px;
+    background-image: url(../images/fk_tit01.png);
+    float: left;
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.sousuo2017ys {
+height: 30px;
+    width: 220px;
+    opacity: 1;
+    filter: alpha(opacity=100);
+    background: none;
+    /* border: none #BF7341; */
+    font-size: 13px;
+    line-height: 30px;
+    color: #fff;
+    background-image: none !important;
+    border: 0px !important;
+    padding-left: 15px;
+}
+input::-webkit-input-placeholder {
+color: #fff;
+}
+input:-moz-placeholder {
+/* Mozilla Firefox 4 to 18 */
+color: #fff;
+}
+
+input::-moz-placeholder {
+/* Mozilla Firefox 19+ */
+color: #fff;
+}
+
+input::-ms-input-placeholder {
+/* Internet Explorer 10+ */
+color: #fff;
+}

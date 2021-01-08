@@ -1,0 +1,321 @@
+
+
+/*-----------------------------theme主题-----------------------------*/
+body{font-size:14px;font-family: 微软雅黑, 宋体 , Verdana, Arial;line-height: 1.42857143;color: #333;background-color: #F4F1F4;}
+a{color: #333;}
+a:hover,a:focus{color: red;}
+.cor1,a.cor1{color: white;}
+.cor2,a.cor2{color: ;}
+.cor3,a.cor3{color: ;}
+.cor4,a.cor4{color: ;}
+.bg1{background: white;}
+.bg2{background: ;}
+.bg3{background: ;}
+.theme-lm>*{font-size: 20px;padding: 0 10px;float: left;line-height: 45px;height: 45px;color: #3560a0;}
+.theme-lm>*.active{color: #be5556;border-bottom: 2px solid #be5556;}
+.theme-lm img{float: left;margin-top: 7px;}
+.theme-more a{line-height: 45px;color: #C9C9C9;float: right;font-size: 14px;}
+.theme-list li{padding-left: 15px;background: url(http://edu.sc.gov.cn/scedu/xhtml/images/icon/icon2.jpg) no-repeat 0 center;line-height: 35px;}
+.theme-ct{margin-bottom:30px;background: white;padding: 0 20px 20px;}
+.theme-dqwz{background: url(http://edu.sc.gov.cn/scedu/xhtml/images/icon/dqwz.jpg) no-repeat 0 center;padding: 14px 0 14px 25px;border-bottom: 1px solid #CCCCCC;margin-bottom: 20px;font-size: 16px;}
+
+/*-----------------------------header页眉-----------------------------*/
+.version{font-size:18px;background: #f9f9f9;line-height: 50px;text-align: center;}
+.version a{color: #d80909;text-decoration:underline;}
+.logorotate img{-webkit-animation: change 6s linear infinite;}
+@-webkit-keyframes change {0%{-webkit-transform:rotate(0deg);} 50%{-webkit-transform:rotate(-180deg);} 100%{-webkit-transform:rotate(-360deg);}}
+
+.header{
+    width: 100%;
+    background-color: #fff;
+}
+.weather p{
+    float: left;
+    line-height: 40px;
+}
+.weather p + p{
+    margin-left: 20px;
+    margin-top: 6px;
+    height: 30px;
+}
+.topbar{
+    width: 100%;
+    height: 40px;
+}
+.wb{
+    float: right;
+    line-height: 40px;
+}
+.wb .wbwx{
+    float: left;
+}
+.wb .wbwx li{
+    float: left;
+    margin: 0 15px;
+    height: 100%;
+}
+.wb .wbwx li img{
+    margin-right: 7px;
+}
+.wb .sc{
+    float: right;
+    margin-left: 30px;
+    height: 100%;
+}
+.wb .sc span{
+    margin: 0 2px;
+}
+.logobox .logo{
+    float: left;
+    margin: 30px 0;
+}
+.logobox .search{
+    position: relative;
+    float: right;
+    margin-top: 30px;
+    margin-right: 10px;
+}
+.logobox .search input{
+    width: 490px;
+    height: 50px;
+    line-height: 50px;
+    border-radius: 25px;
+    outline: none;
+    border: 1px solid #CCCCCC;
+    text-indent: 2em;
+}
+.logobox .search button{
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+    line-height: 50px;
+    width: 113px;
+    background-color: #015293;
+    color: #fff;
+    border-radius: 25px;
+    outline: none;
+    border: none;
+}
+.logobox .search button img{
+    margin-right: 8px;
+}
+.nav{
+    width: 100%;
+    height: 48px;
+    background-color: #015293;
+}
+.nav ul{
+    width: 100%;
+    height: 100%;
+}
+.nav ul li{
+    float: left;
+    width: 170px;
+    height: 100%;
+    line-height: 48px;
+    text-align: center;
+    font-size: 22px;
+}
+.nav ul li:first-child{
+    width: 150px;
+}
+.nav ul li a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+}
+.nav ul li img{
+    margin-right: 8px;
+}
+.nav ul li + li{
+    border-left: 1px solid #FFFFFF;
+}
+/*-----------------------------footer页脚-----------------------------*/
+.footer{
+    width: 100%;
+    border-top: 2px solid #015293;
+}
+.footer .foot{
+    margin: 0 auto;
+    padding: 20px;
+}
+.footer .wzdtbox{
+    color: #333;
+}
+.footer .wzinfo{
+    margin-top: 15px;
+    width: 100%;
+}
+.footer .wzinfo .dwxx{
+    float: left;
+    width: 80%;
+}
+.footer .wzinfo .dwxx p{
+    margin: 5px auto;
+}
+.footer .wzinfo .dwxx span + span{
+    margin-left: 25px;
+}
+.footer .wzinfo .dzjg{
+    float: right;
+}
+.footer .wzinfo .dzjg > img{
+    margin-left: 5px;
+}
+/*-----------------------------list列表-----------------------------*/
+.list-fl{width: 23%;float: left;}
+.list-fl>p{font-size: 20px;font-weight: bold;color: #fff;text-align: center;background-color: #3871a6;margin-bottom: 20px;line-height: 40px;}
+.list-lm li{line-height: 37px;background: #eff4f9;border-bottom: 3px solid white;font-size: 18px;text-align: center;position: relative;}
+.list-lm li:before{content: " ";background: url(http://edu.sc.gov.cn/scedu/xhtml/images/icon/list_nav.png);width: 8px;height: 13px;position: absolute;right: 15px;top: 12px;transform:rotate(180deg);transition:transform .3s;}
+.list-lm li:hover:before,.list-lm li.active:before{transform:rotate(270deg);}
+.list-lm li a{display: block;white-space: nowrap;overflow:hidden;text-overflow:ellipsis;position: relative;z-index: 2;padding: 0 25px 0 20px;}
+.list-lm li.active a,.list-lm li:hover a{font-weight: bold;color: #3871a6;}
+.list-fr{width: 75%;float: right;}
+.list-fr>p{background: #f3f3f3;margin-bottom: 20px;}
+.list-fr>p span{font-size: 20px;font-weight: bold;color: #fff;text-align: center;background-color: #3871a6;line-height: 40px;float: left;padding: 0 50px;}
+.list li{line-height: 35px;padding-left: 20px;background: url(http://edu.sc.gov.cn/scedu/xhtml/images/icon/dian2.jpg) no-repeat 0 center;font-size: 16px;white-space: nowrap;overflow:hidden;text-overflow:ellipsis;transition: all .5s;}
+.list li:hover{transform:translateX(1em);}
+.list li span{float: right;color: #999;font-size: 14px;margin-left: 20px;position: relative;}
+.list hr{border-bottom: dashed 1px #cccccc;}
+.newicon{background: url(http://edu.sc.gov.cn/scedu/xhtml/images/icon/iconnew.jpg) no-repeat 0 center !important;padding-left: 35px !important;}
+
+.list-fl>p{
+    margin-bottom: 0;
+    line-height: 50px;
+    background: url(http://edu.sc.gov.cn/scedu/xhtml/images/public/lmbg.png) no-repeat;
+}
+.list-fl > ul{
+    padding: 20px;
+    background: #F0F6FB;
+}
+.list-lm li{
+    border-bottom:1px solid #ADBFCE;
+}
+.list-lm li.active{
+    background: url(http://edu.sc.gov.cn/scedu/xhtml/images/public/lmlistbg.png) no-repeat;
+}
+.list-lm li.active a{
+    color: #fff;
+}
+.list-lm li:last-child{
+    border-bottom: none;
+}
+.list-fr>p span{
+    padding: 0 26px;
+    font-size: 20px;
+    font-weight: normal;
+    background: url(http://edu.sc.gov.cn/scedu/xhtml/images/public/titlebg.png) no-repeat;
+}
+/*分页*/
+#page-div{margin:0 auto;text-align: center;margin-top: 20px;}
+.pagination-first,.pagination-last{margin: 10px 0;}
+.pagination-index,.pagination-num{border: 1px solid #3871a6;margin: 0 3px;padding:0 15px;display: inline-block;border-radius: 3px;color: #3871a6;}
+.pagination-num.active,.pagination-index:hover,.pagination-num:hover{background: #3871a6;color: white;}
+.pagination-last span{margin: 0 5px;}
+.pagination-last input{height: 18px;width: 30px;text-align: center;}
+@media (max-width:768px) {.pagination-last small{display: none;}.pagination-index,.pagination-num{padding:0 4px;}}
+
+/*-----------------------------detail详情-----------------------------*/
+.detail{background: #FFFFFF;padding-bottom: 20px;}
+.detail>h1{font-size: 32px;text-align: center;padding: 0 50px 20px;}
+.inform{border: 1px solid #CCCCCC;border-left: none;border-right: none;line-height: 40px;text-align: center;color: #999;border-top: none;}
+.inform>div{display: inline-block;margin: 0 20px;}
+.inform .fontsize img,.inform .fontsize span{margin: 0 5px;cursor: pointer;}
+.inform .dywb{cursor: pointer;background: url(http://edu.sc.gov.cn/scedu/xhtml/images/icon/print.png) no-repeat 0 center;padding-left: 15px;}
+.inform .bdsharebuttonbox{display: inline-block;vertical-align: middle;}
+#NewsContent{padding: 20px;}
+.zrbj{display: block;margin: 10px 0;text-align: right;}
+#div-div{text-align: center;font-size: 12px;color: #999;clear: both;padding-bottom: 20px;}
+#div-div>table{display:inline-block;}
+.xgxw p{border-bottom: 1px solid #CCCCCC;font-size: 20px;line-height: 50px;margin-bottom: 10px;}
+.xgxw p i{width: 5px;height: 20px;background: #3871a6;display: inline-block;margin-right: 15px;vertical-align: -3px;}
+.xgxw ul{padding-bottom: 20px;margin: 0 -20px;}
+.xgxw li{float: left;width: 50%;padding: 0 20px 0 35px;background: url(http://edu.sc.gov.cn/scedu/xhtml/images/icon/dian2.jpg) no-repeat 20px center;line-height: 35px;white-space: nowrap;overflow:hidden;text-overflow:ellipsis;font-size: 16px;}
+.xgxw li span{float: right;color: #999;margin-left: 20px;}
+.click-top{position: fixed;bottom: 50px;right: 20px;z-index: 1000;cursor: pointer;width: 30px;display: none;}
+@media print{.dyyc{display: none !important;}.detail{padding-top: 20px;}}
+
+/*-----------------------------添加类名（辅助）-----------------------------*/
+{white-space: nowrap;overflow:hidden;text-overflow:ellipsis;}
+
+/*-----------------------------********-----------------------------*/
+
+/*-----------------------------响应式-----------------------------*/
+.container,.container-fluid{margin-right: auto;margin-left: auto;}
+.container{
+    width: 1200px;
+}
+
+@media (max-width: 1220px) {
+    .container{
+        width: 100%;
+    }
+.theme-ct{padding-left: 10px;padding-right: 10px;}
+.theme-dqwz{background-position-y: 20px;}
+/* list */
+.list-fl{display: none;}
+.list-fr{width: 100%;}
+
+/* dtail */
+#NewsContent{padding-left: initial;padding-right: initial;}
+#NewsContent img{height: initial !important;}
+.detail>h1{font-size: 20px;padding:0 0 20px 0;}
+.inform{line-height: 25px;padding: 10px 0;}
+.xgxw li{float: initial;width: initial;}
+.inform .removedis,.click-top,#div-div{display: none;}
+
+    .topbar{
+        display: none;
+    }
+    .logobox .logo{
+        float: unset;
+        width: 90%;
+        margin: 30px auto;
+        text-align: center;
+    }
+    .logobox .search{
+        display: none;
+    }
+    .footer .wzinfo .dwxx{
+        width: 75%;
+    }
+    .nav ul li{
+        width: 145px;
+    }
+}
+@media (max-width: 768px) {
+    .nav{
+        height: auto;
+    }
+    .nav ul li:first-child{
+        width: 100%;
+    }
+    .nav ul li{
+        margin-bottom: 4px;
+    }
+    .nav ul li + li{
+        width: 33%;
+    }
+    .footer .wzinfo .dzjg{
+        display: none;
+    }
+    .footer .wzdtbox{
+        text-align: center;
+    }
+    .footer .wzinfo .dwxx{
+        float: unset;
+        margin: auto;
+        width: 100%;
+        text-align: center;
+    }
+}
+@media (max-width: 414px) {
+    .nav ul li{
+        font-size: 20px;
+    }
+    .footer .wzdtbox{
+        display: none;
+    }
+}

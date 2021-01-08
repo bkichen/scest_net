@@ -1,0 +1,48 @@
+ .wjjb_box{
+	display:none;
+}
+.wjjb_ul{
+    overflow: hidden;
+    width: 256px;
+    height: 35px;
+    background: #f1f1f1;
+    border-radius: 35px;
+    margin-top: 4px;
+    padding: 0 8px;
+    float: left;
+    margin-left: 14px;
+    font-size: 20px;
+}
+.wjjb_ul li {
+    float: left;
+    line-height: 35px;
+    height: 35px;
+    padding: 0 17px;
+    margin: 0 3px;
+    background: none;
+}
+
+.wjjb_ul .scsh_active_two{
+  background-image: url(../images/xinzbj_huang.png);
+  border-radius: 35px;
+  color: white;
+	  font-size: 20px;
+}
+ .wjjb_ul li a{
+     font-size: 20px;
+ }
+  
+.wjjb_ul li.scsh_active_two a{
+	  font-size: 20px;
+	color:white;
+}
+.wjjb ul li {
+    text-align: left;
+    margin-bottom: 5px;
+    display: block;
+    position: relative;
+    padding-left: 20px;
+    background-image: url(../images/black_circle.png);
+    background-repeat: no-repeat;
+    background-position-y: 9px;
+}

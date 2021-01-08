@@ -1,0 +1,183 @@
+.zybs_title_one{
+	background-image: url(../images/yqzt6_bj_title.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.zt_xuline{
+	    background-image: url(../images/zt_xuline.png);
+    background-position: left;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 35px;
+    float: left;
+    line-height: 35px;
+}
+.zt_xuline a{
+	float:right;
+}
+.font_red{
+	font-size:20px;
+	color:#0766bb;
+	font-weight:bold;
+	float:left;
+}
+.scxd_title_one{
+	background-image: url(../images/yqzt6_bj_title.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.font_red_a{
+	
+}
+em{
+	font-style:normal;
+}
+.scsh_ul ul{
+
+}
+.scsh_ul li {
+    line-height: 30px;
+    font-size: 18px;
+    color: #000000;
+    position: relative;
+    height: 30px;
+		overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+ margin-bottom: 2px;
+}
+
+.bzcs_ul li {
+    text-align: left;
+    margin-bottom: 2px;
+    display: block;
+    position: relative;
+    padding-left: 20px;
+    background-image: url(../images/black_circle.png);
+    background-repeat: no-repeat;
+    background-position-y: 9px;
+	width:100%;
+    height: auto;
+    overflow: inherit;
+    text-overflow: inherit;
+    white-space: inherit;
+       float: left;
+    text-align: justify;
+}
+
+.bzcs_ul li a{
+width: 100%;
+    display: block;
+    float: left;
+}
+
+.yqbb {
+    width: 100%;
+    height: 80px;
+    background: #f4f4f4;
+    margin: 15px 0;
+}
+.scsh_ul dd{
+    margin-top: 4px;
+    color: #000000;
+    font-size: 18px;
+    min-height: 28px;
+    position: relative;
+    padding-left: 16px;
+    box-sizing: border-box;
+    background-image: url(../images/black_circle.png);
+    background-repeat: no-repeat;
+    background-position-y: 9px;
+    float: left;
+    text-align: justify;
+    text-justify: distribute;
+
+}
+.scsh_two_ul dd{
+	
+	overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.font_red_a a{
+	float:none;
+}
+.scsh_more a{
+	display:none;
+	line-height:35px;
+	margin-top:0px;
+}
+.fk_title{
+	    height: 60px;
+    font-size: 30px;
+    text-align: center;
+}
+.fk_title a{
+	display:block;
+	color:#0766bb;
+}
+.scsh_tit ul li {
+    float: left;
+    line-height: 35px;
+    height: 35px;
+    padding: 0 17px;
+    margin: 0 3px;
+    background: none;
+}
+
+.scsh_tit ul li.scsh_active {
+  background-image: url(../images/xinzbj_huang.png);
+  border-radius: 35px;
+  color: white;
+  font-size: 18px;
+}
+.scsh_tit ul li.scsh_active a{
+	
+	color:white;
+}
+.scsh_tit ul {
+   overflow: hidden;
+    width: 256px;
+    height: 35px;
+    background: #f1f1f1;
+    border-radius: 35px;
+    margin-top: 4px;
+    padding: 0 8px;
+    float: left;
+    margin-left: 14px;
+    font-size: 18px;
+}
+.scsh_ul DD {
+    width: 484px;
+}
+.scsh_ul{
+	overflow:hidden;
+}
+.scxd_db .scsh_ul{
+	
+	display:none;
+}
+.scsh_tit h3::after{
+    bottom: -13px;
+}
+.tzgg{
+    margin-top: 35px;
+}
+.scsh_tit ul li a{
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,602 @@
+
+/* CSS Document */
+
+*{margin:0px auto;}
+body{font-size:14px; color:#212121;}
+/**搜索样式*/
+input#keyword{background-image:url(../images/zy_sousuo2016031105_03.jpg);background-repeat: no-repeat;background-position: right center;cursor:pointer;border: 1px solid #a9a9a9;}
+a{color:#212121; text-decoration:none;}
+a:hover{color:#b80b05; text-decoration:underline;}
+a img{border:0px;}
+.font12x{font-size:12px;}
+.top_fontH{color:#ea0700; font-size:12px;}
+.top_fontH a{color:#ea0700; text-decoration:none;}
+.top_fontH a:hover{color:#ea0700; text-decoration:underline;}
+.nav_font{color:#59503e; font-size:14px;}
+.nav_font a{color:#59503e; text-decoration:none;}
+.new_fontB{
+	color:#FFF;
+	font-size:16px;
+	font-family: "微软雅黑";
+	line-height: 24px;}
+.new_fontB a{color:#FFF;}
+.new_fontH{color:#717171;  font-size:12px;}
+.new_fontH a{color:#717171;}
+.new_fontH a:hover{color:#b80b05; text-decoration:underline;}
+.new_font16{color:#ca0b0c; font-size:16px;}
+.nav_bor{border:#dc441c 1px solid; text-align:center;}
+.xuxian{background:url(../images/20140806wj_40.jpg) repeat-x center;}
+.nav_js{background:url(../images/20140806wj_29.jpg) no-repeat center; height:32px; color:#FFFFFF; font-size:14px;  cursor:pointer;}
+.nav_js a{color:#FFFFFF;}
+.newleft_js{
+	background:url(../images/20140806wj_49.jpg) no-repeat center;
+	width:78px;
+	height:28px;
+	line-height:28px;
+	color:#FFF;
+	font-weight:bold;
+	cursor:pointer;
+	font-family: "微软雅黑";font-size:16px;
+}
+.newleft_js a{color:#ffffff; text-decoration:none;}
+.newleft_js a:hover{color:#ffffff; text-decoration:underline;}
+.newleft_js2{font-family: "微软雅黑"; color:#b03411; font-size:16px;  cursor:pointer;}
+.new_fontH16{color:#ca0b0c; font-size:16px;}
+.new_fontH14{
+	color:#ca0b0c;
+	font-size:14px;
+	line-height: 22px;
+}
+.new_fontH12{color:#ca0b0c; font-size:12px;}
+.new_fontH16 a,.new_fontH14 a,.new_fontH12 a{color:#ca0b0c;}
+.line_hy{line-height:22px;}
+.new_bor{border:#d0d0d0 1px solid; border-top:none;}
+.xxgk_font{color:#4a4a4a; font-size:14px; line-height:24px;}
+.xxgk_fontN{color:#4a4a4a;}
+.xxgk_font a,.xxgk_fontN a{color:#4a4a4a;}
+.xxgk_font a:hover{ padding:3px 0; background:url(../images/20140806wj_75.jpg) repeat-x center; border:#f1b16c 1px solid; height:20px; line-height:20px; color:#d21a17; text-decoration:none;}
+.xxgk_fontN a:hover{ color:#d21a17; text-decoration:none;}
+.td_bor{ border-bottom:#CCC 1px solid;}
+.xxgk_fontH{ color:#c70303; font-size:14px; border:#f2b06d 1px solid; background:url(../images/20140806wj_96.jpg) repeat-x; height:26px;}
+.xxgk_fontH a{ color:#c70303; text-decoration:none; }
+.zfwj_line{line-height:27px;}
+.table_bor{border:#CCC 1px solid;}
+.pic_bor{border:#d7d7d7 1px solid; border-top:none; border-bottom:none;}
+.img_bor{border:#CCC 1px solid; padding:4px;}
+.wb_fontL{color:#1887de;}
+.font12x{font-size:12px;}
+.new_fontB_font12x {
+	font-size: 12px;
+	line-height: 20px;
+	color: #FFFFFF;
+}
+.bm_js{ background:url(../images/20140806wj_154.gif) no-repeat center; font-size:13px; color:#FFF; cursor:pointer;}
+.spbb_bg{
+	background:url(../images/20140806wj_125.jpg) no-repeat center;
+	color:#FFF;
+	cursor:pointer;
+}
+.spbb_bg a{color:#ffffff; text-decoration:underline;}
+.spbb_bg a:hover{color:#ffffff; text-decoration:underline;}
+
+/*.bm_js2{font-size:12px; cursor:pointer;}*/
+.blsx_bgJS{border:#eec6c6 1px solid; background:#f5eced; color:#c60001; font-weight:bold; cursor:pointer;}
+.xxbs_bgJS{ background:url(../images/20140806wj_245.jpg) no-repeat center; width:110px; color:#FFF; font-weight:bold; cursor:pointer;}
+.xxbs_bgJS2{ background:url(../images/20140806wj_246.jpg) repeat-x center; color:#980903; font-weight:bold; cursor:pointer;}
+.xxbs_bor{border-bottom:#F00 1px dashed;}
+.ljdh_bor{border-top:#CCC 1px dashed;}
+
+/*政府信息公开浮动窗口*/
+.xxgk_wh{height:140px; width:355px; overflow:hidden; display:none;}
+
+/*便民信息浮动窗口*/
+.bmxx_wh{height:211px; overflow:hidden; display:none;}
+
+/*省政府组成部门*/
+.zfbm_bg{ background:url(../images/20140806wj_240.jpg) no-repeat center; height:40px; line-height:40px; color:#FFF; font-weight:bold; cursor:pointer;}
+.red2015x {
+	font-size: 16px;
+	font-weight: bold;
+	color: #B83D35;
+	font-family: "微软雅黑";
+}
+.red2015x a{color:#ffffff; text-decoration:none;}
+.red2015x a:hover{color:#ffffff; text-decoration:underline;}
+
+/*Begin	新闻聚焦*/
+#demo_newsFocus{ overflow:hidden; width:660px;}
+#demo_newsFocus .demo_newsFocus {width:800%; height:25px;}
+#demo_newsFocus .demo_newsFocus div{ float:left;}
+#demo_newsFocus .demo_newsFocus ul{float:left; height:25px; overflow:hidden; zoom:1; }
+#demo_newsFocus .demo_newsFocus ul li{float:left; line-height:25px; list-style:none;}
+#demo_newsFocus li a{margin-right:10px;color:#444444;}
+/*End	新闻聚焦*/
+
+/*begin	政府信息公开*/
+.govInfoTran{
+	border:1px solid gray;
+	width:360px;
+	float:left;
+	height:140px;
+	position:absolute;
+	background-color:white;
+	margin-top:-80px;
+	display:none;
+}
+.govInfoTran ul{
+	margin:0;
+	padding:0;
+}
+.govInfoTran ul li{
+	float:left;
+	list-style-type:none;
+}
+.govInfoTran .govInfoTran_nav{
+	width:119px;
+	height:30px;
+	border-top:1px solid red;
+	border-bottom:1px dotted red;
+	margin-top:3px;
+	text-align:left;
+}
+.govInfoTran .govInfoTran_nav a{
+	margin-top:5px;
+}
+.govInfoTran .govInfoTran_nav div{
+	width:100px;
+	height:20px;
+	border:1px solid gray;
+	background-color:#EFEFEF;
+	margin:3px 0 0 10px;
+	vertical-align:bottom;
+}
+.govInfoTran .govInfoTran_nav_4{
+	width:220px;
+	height:30px;
+	border-top:1px solid red;
+	border-bottom:1px dotted red;
+	margin-top:3px;
+	text-align:left;
+}
+.govInfoTran .govInfoTran_nav_4 a{
+	margin-top:5px;
+}
+.govInfoTran .govInfoTran_nav_4 div{
+	width:120px;
+	height:20px;
+	border:1px solid gray;
+	background-color:#EFEFEF;
+	margin:3px 0 0 10px;
+	vertical-align:bottom;
+}
+.govInfoTran .govInfoTran_nav_3{
+	width:238px;
+	height:30px;
+	border-top:1px solid red;
+	border-bottom:1px dotted red;
+	margin-top:3px;
+	text-align:left;
+}
+.govInfoTran .govInfoTran_nav_3 a{
+	margin-top:5px;
+}
+.govInfoTran .govInfoTran_nav_3 div{
+	width:200px;
+	height:20px;
+	border:1px solid gray;
+	background-color:#EFEFEF;
+	margin:3px 0 0 10px;
+	vertical-align:bottom;
+}
+.govInfoTran .govInfoTran_list{
+	width:358px;
+	margin-top:10px;
+	text-align:left;
+}
+.govInfoTran .govInfoTran_list img{
+	margin-left:10px;
+}
+.govInfoTran .govInfoTran_list a{
+	margin-left:5px;
+}
+.govInfoTran .govInfoTran_more{
+	width:358px;
+	height:25px;
+	text-align:right;
+}
+.govInfoTran a{
+	font-size:12px;
+}
+
+.ggzypz_no_list{
+	border:1px solid gray;
+	width:360px;
+	float:left;
+	height:35px;
+	position:absolute;
+	background-color:white;
+	margin-top:-80px;
+	display:none;
+}
+.ggzypz_no_list ul{
+	margin:0;
+	padding:0;
+}
+.ggzypz_no_list ul li{
+	float:left;
+	list-style-type:none;
+}
+.ggzypz_no_list .govInfoTran_nav{
+	width:175px;
+	height:30px;
+	border-top:1px solid red;
+	margin-top:3px;
+	text-align:left;
+}
+
+.ggzypz_no_list .govInfoTran_nav a{
+	margin-top:5px;
+}
+.ggzypz_no_list .govInfoTran_nav div{
+	width:160px;
+	height:20px;
+	border:1px solid gray;
+	background-color:#EFEFEF;
+	margin:3px 0 0 3px;
+	vertical-align:bottom;
+}
+
+.ggzypz{
+	border:1px solid gray;
+	width:360px;
+	float:left;
+	height:140px;
+	position:absolute;
+	background-color:white;
+	margin-top:-80px;
+	display:none;
+}
+.ggzypz ul{
+	margin:0;
+	padding:0;
+}
+.ggzypz ul li{
+	float:left;
+	list-style-type:none;
+}
+.ggzypz .govInfoTran_nav{
+	width:119px;
+	height:30px;
+	border-top:1px solid red;
+	margin-top:3px;
+	text-align:left;
+}
+.ggzypz .govInfoTran_nav_1{
+	width:119px;
+	height:30px;
+	border-bottom:1px dotted red;
+	text-align:left;
+}
+.ggzypz .govInfoTran_nav a{
+	margin-top:5px;
+}
+.ggzypz .govInfoTran_nav div{
+	width:100px;
+	height:20px;
+	border:1px solid gray;
+	background-color:#EFEFEF;
+	margin:3px 0 0 3px;
+	vertical-align:bottom;
+}
+.ggzypz .govInfoTran_nav_2 div{
+	width:130px;
+	height:20px;
+	border:1px solid gray;
+	background-color:#EFEFEF;
+	margin:3px 0 0 3px;
+	vertical-align:bottom;
+}
+.ggzypz .govInfoTran_nav_1 div{
+	width:100px;
+	height:20px;
+	border:1px solid gray;
+
+	background-color:#EFEFEF;
+	margin:3px 0 0 3px;
+	vertical-align:bottom;
+}
+.ggzypz .govInfoTran_list{
+	width:358px;
+	margin-top:10px;
+	text-align:left;
+}
+.ggzypz .govInfoTran_list img{
+	margin-left:10px;
+}
+.ggzypz .govInfoTran_list a{
+	margin-left:5px;
+}
+.ggzypz .govInfoTran_more{
+	width:358px;
+	height:25px;
+	text-align:right;
+}
+.ggzypz a{
+	font-size:12px;
+}
+
+.ggzypz_no_list a {
+	font-size:12px;
+}
+
+.ggfw_no_list {
+    border:1px solid gray;
+	width:370px;
+	float:left;
+	height:65px;
+	position:absolute;
+	background-color:white;
+	margin-top:-45px;
+	display:none;
+}
+
+.ggfw_no_list ul{
+	margin:0;
+	padding:0;
+}
+.ggfw_no_list ul li{
+	float:left;
+	list-style-type:none;
+}
+.ggfw_no_list .govInfoTran_nav_no_list{
+	width:122px;
+	height:30px;
+	border-top:1px solid red;
+	margin-top:3px;
+	text-align:left;
+}
+.ggfw_no_list .govInfoTran_nav_1_no_list{
+	width:122px;
+	height:30px;
+	border-bottom:1px dotted red;
+	text-align:left;
+}
+.ggfw_no_list .govInfoTran_nav_no_list a{
+	margin-top:5px;
+}
+.ggfw_no_list .govInfoTran_nav_no_list div{
+	width:115px;
+	height:20px;
+	border:1px solid gray;
+	background-color:#EFEFEF;
+	margin:3px 0 0 3px;
+	vertical-align:bottom;
+}
+
+.ggfw_no_list .govInfoTran_nav_1_no_list div{
+	width:115px;
+	height:20px;
+	border:1px solid gray;
+	background-color:#EFEFEF;
+	margin:3px 0 0 3px;
+	vertical-align:bottom;
+}
+
+    .ggfw_no_list a {
+        font-size: 12px;
+    }
+
+.ggfw{
+	border:1px solid gray;
+	width:360px;
+	float:left;
+	height:140px;
+	position:absolute;
+	background-color:white;
+	margin-top:-45px;
+	display:none;
+}
+.ggfw ul{
+	margin:0;
+	padding:0;
+}
+.ggfw ul li{
+	float:left;
+	list-style-type:none;
+}
+.ggfw .govInfoTran_nav{
+	width:119px;
+	height:30px;
+	border-top:1px solid red;
+	margin-top:3px;
+	text-align:left;
+}
+.ggfw .govInfoTran_nav_1{
+	width:119px;
+	height:30px;
+	border-bottom:1px dotted red;
+	text-align:left;
+}
+.ggfw .govInfoTran_nav a{
+	margin-top:5px;
+}
+.ggfw .govInfoTran_nav div{
+	width:110px;
+	height:20px;
+	border:1px solid gray;
+	background-color:#EFEFEF;
+	margin:3px 0 0 3px;
+	vertical-align:bottom;
+}
+.ggfw .govInfoTran_nav_1 div{
+	width:110px;
+	height:20px;
+	border:1px solid gray;
+	background-color:#EFEFEF;
+	margin:3px 0 0 3px;
+	vertical-align:bottom;
+}
+.ggfw .govInfoTran_list{
+	width:358px;
+	margin-top:10px;
+	text-align:left;
+}
+.ggfw .govInfoTran_list img{
+	margin-left:10px;
+}
+.ggfw .govInfoTran_list a{
+	margin-left:5px;
+}
+.ggfw .govInfoTran_more{
+	width:358px;
+	height:25px;
+	text-align:right;
+}
+.ggfw a{
+	font-size:12px;
+}
+
+
+
+.hjbh{border:1px solid gray; width:360px; float:left; height:140px; position:absolute; background-color:white; margin-top:-7px; display:none;}
+.hjbh ul{margin:0; padding:0;}
+.hjbh ul li{float:left; list-style-type:none;}
+.hjbh .govInfoTran_nav{width:119px; height:30px; border-top:1px solid red; margin-top:3px; text-align:left;}
+.hjbh .govInfoTran_nav_1{width:119px; height:30px; border-bottom:1px dotted red; text-align:left;}
+.hjbh .govInfoTran_nav a{margin-top:5px;}
+.hjbh .govInfoTran_nav div{width:110px; height:20px; border:1px solid gray; background-color:#EFEFEF; margin:3px 0 0 3px; vertical-align:bottom;}
+.hjbh .govInfoTran_nav_1 div{width:110px; height:20px; border:1px solid gray; background-color:#EFEFEF; margin:3px 0 0 3px; vertical-align:bottom;}
+.hjbh .govInfoTran_list{width:358px; margin-top:10px; text-align:left;}
+.hjbh .govInfoTran_list img{margin-left:10px;}
+.hjbh .govInfoTran_list a{margin-left:5px;}
+.hjbh .govInfoTran_more{width:358px; height:25px; text-align:right;}
+.hjbh a{font-size:12px;}
+
+.hjbh_no_list{border:1px solid gray; width:360px; float:left; height:35px; position:absolute; background-color:white; margin-top:-7px; display:none;}
+.hjbh_no_list ul{margin:0; padding:0;}
+.hjbh_no_list ul li{float:left; list-style-type:none;}
+.hjbh_no_list .govInfoTran_nav_no_list{width:119px; height:30px; border-top:1px solid red; margin-top:3px; text-align:left;}
+.hjbh_no_list .govInfoTran_nav_1_no_list{width:119px; height:30px; border-bottom:1px dotted red; text-align:left;}
+.hjbh_no_list .govInfoTran_nav_no_list a{margin-top:5px;}
+.hjbh_no_list .govInfoTran_nav_no_list div{width:110px; height:20px; border:1px solid gray; background-color:#EFEFEF; margin:3px 0 0 3px; vertical-align:bottom;}
+.hjbh_no_list .govInfoTran_nav_1_no_list div{width:110px; height:20px; border:1px solid gray; background-color:#EFEFEF; margin:3px 0 0 3px; vertical-align:bottom;}
+.hjbh_no_list a{font-size:12px;}
+
+
+.hjbh_no_list_1{border:1px solid gray; width:250px; float:left; height:65px; position:absolute; background-color:white; margin-top:-7px; display:none;}
+.hjbh_no_list_1 ul{margin:0; padding:0;}
+.hjbh_no_list_1 ul li{float:left; list-style-type:none;}
+.hjbh_no_list_1 .govInfoTran_nav_no_list{width:119px; height:30px; border-top:1px solid red; margin-top:3px; text-align:left;}
+.hjbh_no_list_1 .govInfoTran_nav_1_no_list{width:245px; height:30px; border-bottom:1px dotted red; text-align:left;}
+.hjbh_no_list_1 .govInfoTran_nav_no_list a{margin-top:5px;}
+.hjbh_no_list_1 .govInfoTran_nav_no_list div{width:110px; height:20px; border:1px solid gray; background-color:#EFEFEF; margin:3px 0 0 3px; vertical-align:bottom;}
+.hjbh_no_list_1 .govInfoTran_nav_1_no_list div{width:230px; height:20px; border:1px solid gray; background-color:#EFEFEF; margin:3px 0 0 3px; vertical-align:bottom;}
+.hjbh_no_list_1 a{font-size:12px;}
+
+/*End	政府信息公开*/
+
+/*begin	政务微博微信*/
+#tabBmm{ overflow:hidden; width:600px;}
+#tabBmm .demo_zwwbwx {width:800%; height:94px;}
+#tabBmm .demo_zwwbwx div{margin-top:5px; height:94px; width:1030px; float:left;}
+#tabBmm .demo_zwwbwx ul{margin:0; padding:0; float:left; height:94px; overflow:hidden; zoom:1;}
+#tabBmm .demo_zwwbwx ul li{float:left; height:94px; width:85px; list-style-type:none; text-align:center;}
+#tabBmm .demo_zwwbwx ul li img{margin-bottom:5px;}
+#tabBmm li a{font-size:12px;}
+
+#tabSzs{display:none;}
+
+#tabSzs{ overflow:hidden; width:600px;}
+#tabSzs .demo_zwwbwx1 {width:800%; height:94px;}
+#tabSzs .demo_zwwbwx1 div{margin-top:5px; height:94px; float:left; width:1030px;}
+#tabSzs .demo_zwwbwx1 ul{margin:0; padding:0; float:left; height:94px; overflow:hidden; zoom:1;}
+#tabSzs .demo_zwwbwx1 ul li{float:left; height:94px; width:85px; list-style-type:none; text-align:center;}
+#tabSzs .demo_zwwbwx1 ul li img{margin-bottom:5px;}
+#tabSzs li a{font-size:12px;}
+/*End	政务微博微信*/
+
+/*Begin	导航*/
+#nav2015 div{display:none;}
+#nav2015 div a{margin-right:20px;}
+/*End 导航*/
+
+/*Begin	视频播报*/
+a#Tpbd_more{display:none;}
+/*Begin	视频播报*/
+
+/*Begin	搜索*/
+input#searchButton{width:51px; height:23px; background-image:url(../images/20140806wj_35.jpg); border:0;}
+/*End	搜索*/
+
+/*Begin	政府文件*/
+table.zfwj_line tr td div{width:360px; float:left;}
+table.zfwj_line tr td div ul{margin:0; padding:0;}
+table.zfwj_line tr td div ul li.zfwj_line_li0{list-style-type:none; float:left;width:20px; text-align:left;}
+table.zfwj_line tr td div ul li.zfwj_line_li1{list-style-type:none; float:left;width:340px; text-align:left;}
+/*End	政府文件*/
+
+/*Begin	四川要闻开始*/
+div#tabScyw{float:left; width:420px; margin:7px 0 0 0;}
+div#tabScyw ul{margin:0; padding:0;}
+div#tabScyw ul li{float:left; width:420px; height:27px; list-style-type:none; text-align:left; background:url(../images/20100620wj_sy_08.jpg) left center no-repeat;}
+div#tabScyw ul li div{margin:4px 0 0 10px;word-break: keep-all;white-space: nowrap; overflow: hidden;text-overflow: ellipsis; width:410px;}
+div#tabScyw ul li div span.xwjjwb a{float:left; display:block;}
+
+table#tabScyw{width:420px; margin:7px 0 0 0;}
+table#tabScyw span{float:left;}
+table#tabScyw span.xwjjwb a{float:left; display:block;}
+/*End	四川要闻开始*/
+
+/*Begin	热点关注*/
+div#tabRdgz{float:left; width:420px; margin:7px 0 0 0;}
+div#tabRdgz ul{margin:0; padding:0;}
+div#tabRdgz ul li{float:left; width:420px; height:27px; list-style-type:none; text-align:left; background:url(../images/20100620wj_sy_08.jpg) left center no-repeat;}
+div#tabRdgz ul li div{margin:4px 0 0 10px;word-break: keep-all;white-space: nowrap; overflow: hidden;text-overflow: ellipsis; width:400px;}
+/*End	热点关注*/
+
+/*Begin	国务院新闻开始*/
+div#tabGwyxw{float:left; width:420px; margin:7px 0 0 0;}
+div#tabGwyxw ul{margin:0; padding:0;}
+div#tabGwyxw ul li{float:left; width:420px; height:27px; list-style-type:none; text-align:left;background:url(../images/20100620wj_sy_08.jpg) left center no-repeat;}
+div#tabGwyxw ul li div{margin:4px 0 0 10px;word-break: keep-all;white-space: nowrap; overflow: hidden;text-overflow: ellipsis; width:400px;}
+/*End	国务院新闻开始*/
+
+/*Begin	政府信息公开下方链接*/
+div.zfxxgk_div1{float:left; width:360px; margin:12px 0 0 0;}
+div.zfxxgk_div1 ul{margin:0; padding:0;}
+div.zfxxgk_div1 ul li.zfxxgk_div1_li0{list-style-type:none; float:left; height:25px; width:150px; background:url(../images/20140806wj_96.jpg); border-top:#f2b06d 1px solid; border-right:#f2b06d 1px solid; border-bottom:#f2b06d 1px solid; margin:10px 2px 0 0; text-align:left;}
+div.zfxxgk_div1 ul li.zfxxgk_div1_li1{list-style-type:none; float:left; height:25px; width:140px; background:url(../images/20140806wj_96.jpg); border-top:#f2b06d 1px solid; border-right:#f2b06d 1px solid; border-bottom:#f2b06d 1px solid; margin:10px 0 0 0px; text-align:left;}
+div.zfxxgk_div1 ul li.zfxxgk_div1_li3{list-style-type:none; float:left; height:25px; width:30px; background:url(../images/20140806wj_96.jpg); border-top:#f2b06d 1px solid; border-left:#f2b06d 1px solid; border-bottom:#f2b06d 1px solid; margin:10px 0 0 2px; text-align:center;}
+div.zfxxgk_div1 ul li div{margin:5px 0 0 0;}
+div.zfxxgk_div1 ul li img{margin:5px 0 0 0;}
+div.zfxxgk_div1 ul li div a{font-size:12px; color:#c70303;}
+/*End	政府信息公开下方链接*/
+
+
+/*Begin	今日四川*/
+div.jrsc_div{float:left; width:300px; margin:4px 0 0 20px;}
+div.jrsc_div ul{margin:0; padding:0;}
+div.jrsc_div ul li{list-style-type:none; float:left; height:30px; width:95px; text-align:center;}
+div.jrsc_div ul li.jrsc_div_li{list-style-type:none; float:left; height:30px; width:95px; text-align:center; background:url(../images/zydhwzibj2015.jpg) no-repeat;}
+div.jrsc_div ul li div{margin:6px 0 0 0;}
+/*End	今日四川*/
+
+/*Begin	政务服务大厅*/
+.20171127_red14 {
+	font-size: 14px;
+	line-height: 30px;
+	font-weight: bold;
+	color: #CC0000;
+}
+.grbs2017zwfw_js{background:url(../images/20171127yb_zwfw_on.jpg) no-repeat center; width:100px; height:31px; line-height:31px; color:#C60001; font-weight:bold; cursor:pointer;}
+.grbs2017zwfw_js a{color:#C60001; text-decoration:none;}
+.qybs20172017zwfw_js2{background:url(../images/20171127yb_zwfw_off.jpg) no-repeat center; width:100px; height:31px; line-height:31px; color:#C60001; font-size:14px;  cursor:pointer;}
+.qybs20172017zwfw_js2 a{color:#C60001; text-decoration:none;}
+.sousuo_bod430 {
+	width: 430px;
+	height: 25px;
+	font-size: 12px;
+	line-height: 24px;
+	color: #999999;
+}
+/*End	政务服务大厅*/

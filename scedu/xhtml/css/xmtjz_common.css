@@ -1,0 +1,489 @@
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+code,
+form,
+fieldset,
+legend,
+input,
+button,
+textarea,
+p,
+blockquote,
+th,
+td {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: url(http://edu.sc.gov.cn/scedu/xhtml/images/common/img_3.jpg) center top no-repeat;
+  color: rgb(102, 102, 102);
+  font-size: 12px;
+  font-family: "é›…é»‘", "å®‹ä½“", arial, verdana, sans-serif;
+}
+td,
+th,
+caption {
+  font-size: 14px;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: normal;
+  font-size: 100%;
+}
+address,
+caption,
+cite,
+code,
+dfn,
+em,
+strong,
+th,
+var {
+  font-style: normal;
+  font-weight: normal;
+}
+a {
+  color: #333;
+  text-decoration: none;
+  -webkit-transition: all .3s;
+  -moz-transition: all .3s;
+  transition: all .3s;
+}
+a:hover {
+  text-decoration: none !important;
+  -webkit-transition: all .3s;
+  -moz-transition: all .3s;
+  transition: all .3s;
+}
+a:focus,
+a:hover {
+  text-decoration: none;
+  color: #008dd1;
+}
+em {
+  font-style: normal;
+}
+img {
+  border: 0;
+  vertical-align: middle;
+}
+img {
+  border: none;
+}
+ol,
+ul,
+li {
+  list-style: none;
+}
+input,
+textarea,
+select,
+button {
+  vertical-align: middle;
+  font-size: 14px;
+  font-family: inherit;
+  line-height: normal;
+  outline: none;
+}
+button {
+  cursor: pointer;
+}
+table {
+  border-collapse: collapse;
+}
+video {
+  object-fit: contain;
+}
+.clearfix:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+.clearfix {
+  *zoom: 1;
+}
+.fl {
+  float: left;
+}
+.fr {
+  float: right;
+}
+.clear {
+  clear: both;
+}
+.block {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.header-box .header-top {
+  color: #666;
+  background: rgba(255, 255, 255, 0.5);
+  height: 26px;
+  line-height: 26px;
+  font-size: 12px;
+}
+.header-box .header-top .fl a {
+  margin-right: 15px;
+}
+.header-box .header-top a {
+  color: #000000;
+}
+.header-box .header-top a:hover {
+  text-decoration: underline!important;
+}
+.header-box .header-top .fr {
+  font-size: 0;
+}
+.header-box .header-top .fr a {
+  font-size: 12px;
+}
+.header-box .header-top .fr em {
+  font-size: 12px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.header-box .header-body {
+  height: 200px;
+}
+.header-box .header-body .body-top {
+  padding-top: 10px;
+}
+.header-box .header-body .logo-box {
+  margin-top: 20px;
+  margin-left: 50px;
+}
+.header-box .header-body .search-box {
+  display: none;
+}
+.top_banner img{width:100%;height:200px;opacity:0;}
+.top_banner {position:relative;}
+.top_banner li{position:absolute;top:0;left:0;z-index:10;width:100%;}
+.top_banner .fade{opacity:1;}
+.header-box .nav {
+  height: 70px;
+  background: url(http://edu.sc.gov.cn/scedu/xhtml/images/common/nav.jpg) no-repeat;
+  position: relative;
+}
+.header-box .nav .lmemu li {
+  font-size: 14px;
+  float: left;
+  line-height: 40px;
+  font-weight: bold;
+  padding: 0 19px;
+  background: url(http://edu.sc.gov.cn/scedu/xhtml/images/common/navlir.jpg) right center no-repeat;
+}
+.header-box .nav .lmemu li.active a,
+.header-box .nav .lmemu li:hover a {
+  color: #ff0;
+}
+.header-box .nav .lmemu li a {
+  text-decoration: none;
+  font-size: 14px;
+  color: #fff;
+}
+.header-box .nav .Rsearch {
+  position: absolute;
+  right: 23px;
+  bottom: 9px;
+  width: 203px;
+  border-collapse: collapse;
+  border: 2px solid #F6B56C;
+  overflow: hidden;
+}
+.header-box .nav .Rsearch input {
+  width: 80%;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 12px;
+  height: 24px;
+  border: none;
+  display: block;
+  float: left;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.header-box .nav .Rsearch .sb {
+  display: block;
+  width: 20%;
+  height: 24px;
+  margin: 0;
+  padding: 0;
+  background-color: #FF761A;
+  border: none;
+  font-weight: bold;
+  color: #fff;
+  cursor: pointer;
+  text-align: center;
+  line-height: 24px;
+  float: left;
+}
+.header-box .Linfos {
+  position: absolute;
+  width: 700px;
+  height: 30px;
+  line-height: 30px;
+  padding-left: 20px;
+  left: 0;
+  bottom: 0;
+  font-size: 12px;
+}
+
+.footer-box {
+  width: 100%;
+  text-align: center;
+  position: relative;
+  border-top: 2px solid #14B8FB;
+  padding-bottom: 10px;
+}
+.footer-box .DownNav {
+  background: url(http://edu.sc.gov.cn/scedu/xhtml/images/common/Dmemu.jpg) bottom center no-repeat;
+  height: 36px;
+  line-height: 36px;
+  margin: 0 auto;
+  color: #333;
+  text-align: center;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+}
+.footer-box .DownNav .links {
+  font-size: 0;
+  text-align: center;
+}
+.footer-box .DownNav .links a {
+  font-size: 12px;
+}
+.footer-box .DownNav .links em {
+  font-size: 12px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+.footer-box .footer-body {
+  position: relative;
+}
+.footer-box .footer-body p {
+  font-size: 13px;
+  line-height: 2;
+}
+.footer-box .footer-bottom {
+  padding-top: 5px;
+}
+.footer-box .footer-bottom a {
+  display: inline-block;
+}
+.footer-box .footer-bottom span {
+  font-size: 13px;
+  color: #666;
+  margin-left: 15px;
+}
+.footer-box .img-left {
+  position: absolute;
+  left: 80px;
+  top: 40px;
+}
+.footer-box .img-right {
+  position: absolute;
+  right: 150px;
+  top: 40px;
+}
+
+@media (max-width: 560px) {
+  .block {
+    width: 100%;
+  }
+  .frindLinks{
+		 display: none;
+	}
+  .header-box .header-top {
+    display: none;
+  }
+  .header-box .body-top {
+    display: none;
+  }
+  .header-box .header-body {
+    height: 160px;
+    overflow: hidden;
+  }
+  .header-box .header-body .logo-box {
+    margin-top: 15px;
+    width: 100%;
+    text-align: center;
+    margin-left: 0;
+  }
+  .header-box .header-body .logo-box img {
+    width: 70%;
+  }
+  .header-box .header-body .search-box {
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin-top: 15px;
+  }
+  .header-box .header-body .search-box input {
+    width: 55%;
+    height: 35px;
+    box-sizing: border-box;
+    padding-left: 10px;
+    padding-right: 10px;
+    vertical-align: middle;
+    border: none;
+  }
+  .header-box .header-body .search-box .btn {
+    display: inline-block;
+    height: 35px;
+    width: 70px;
+    background: #FF761A;
+    color: #fff;
+    line-height: 35px;
+    text-align: center;
+    vertical-align: middle;
+    box-sizing: border-box;
+  }
+  .header-box .nav {
+    background: #1f85d9;
+    height: auto;
+  }
+  .header-box .nav .Rsearch {
+    display: none;
+  }
+  .header-box .nav .Linfos {
+    display: none;
+  }
+  .header-box .nav li {
+    width: 33.33%;
+    text-align: center;
+    box-sizing: border-box;
+  }
+  .header-box .nav li:nth-child(3n) {
+    background: none;
+  }
+  .footer-box {
+    width: 100%;
+    box-sizing: border-box;
+  }
+  .footer-box .img-left {
+    display: none;
+  }
+  .footer-box .img-right {
+    display: none;
+  }
+  .footer-box .DownNav .links em {
+    margin-left: 8px;
+    margin-right: 8px;
+  }
+  .footer-box .footer-body {
+    padding-left: 10px;
+    padding-right: 10px;
+    box-sizing: border-box;
+  }
+  .footer-box .footer-body .links a,
+  .footer-box .footer-body .links em {
+    font-size: 13px;
+  }
+  .footer-box .footer-body p {
+    font-size: 12px;
+  }
+  .footer-box .footer-bottom img {
+    height: 50px;
+  }
+  .footer-box .footer-bottom .gh {
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+  }
+  .footer-box .footer-bottom .gh img {
+    height: 20px;
+  }
+}
+
+.page{
+  padding: 10px 0;
+}
+#page_div div{
+  padding: 0 4px;
+  float: left;
+}
+#page_div span.pagination_qd{
+    background: 0px 0px rgb(0, 102, 153);
+    padding: 2px 5px;
+    border: 1px solid rgb(210, 243, 253);
+    height: 23px;
+    color: white;
+    font-size: 1em;
+    cursor: pointer;
+}
+#page_div span.pagination-first a{
+  margin-right: 12px;
+}
+#page_div div.pagination_index_last,
+#page_div span.pagination-last{
+  float: right;
+}
+#page_div span.pagination-last a{
+  background: 0px 0px rgb(0, 102, 153);
+    padding: 2px 5px;
+    border: 1px solid rgb(210, 243, 253);
+    border-image: none;
+    color: white;
+    font-size: 1em;
+    vertical-align: middle;
+    cursor: pointer;
+}
+#page_div span.pagination-last input{
+  width: 20px;
+}
+
+  #more {display:block;width:25%;line-height:30px;font-size: 14px;text-align: center;margin:0 auto;border-radius: 8px;background-color:#dedede;color:#666;font-family: SumSun;}
+  #more:hover {background-color:#cecece;}
+
+
+.bdshare_popup_list li a , .bdshare_popup_bottom {display:none;}
+.bdshare_popup_list li {
+  width:auto !important;
+  margin-left:0 !important;
+}
+.bdshare_popup_list .popup_qzone , 
+.bdshare_popup_list .popup_tsina ,
+.bdshare_popup_list .popup_weixin {
+  display:block;
+}
+
+
+.bdshare_dialog_list li a , .bdshare_popup_bottom {display:none;}
+.bdshare_dialog_list li {
+  width:auto !important;
+  margin-left:0 !important;
+}
+.bdshare_dialog_list .popup_qzone , 
+.bdshare_dialog_list .popup_tsina ,
+.bdshare_dialog_list .popup_weixin {
+  display:block;
+}
+.bdshare_dialog_box {
+  height: 100px !important;
+}
+.bshare-custom .bshare-renren , .bshare-custom .bshare-qqmb , .bshare-custom .bshare-neteasemb ,.bshare-custom .more-style-addthis {
+  display:none !important;
+}

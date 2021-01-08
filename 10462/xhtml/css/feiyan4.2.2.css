@@ -1,0 +1,84 @@
+.fk_dl dd, .fk_dl li {
+    margin-top: 0px;
+    color: #000000;
+    font-size: 18px;
+    min-height: 28px;
+    position: relative;
+    padding-left: 16px;
+    box-sizing: border-box;
+    background-image: url(../images/black_circle.png);
+    background-repeat: no-repeat;
+	background-position-y:9px;
+   float:left;
+  text-align:justify;
+  text-justify:distribute;
+}
+
+.txtScroll-top li {
+    padding-left: 16px;
+    position: relative;
+    box-sizing: border-box;
+    line-height: 28px;
+	 background-image: url(../images/black_circle2.png);
+    background-repeat: no-repeat;
+	background-position-y:9px;
+}
+.tzgg_box li {
+    text-align: left;
+    margin-bottom: 5px;
+    display: block;
+    position: relative;
+    padding-left: 20px;
+	 background-image: url(../images/black_circle.png);
+    background-repeat: no-repeat;
+	background-position-y:9px;
+}
+.hyzs_list li {
+    line-height: 30px;
+    font-size: 18px;
+    color: #000000;
+    padding-left: 16px;
+    position: relative;
+    height: 36px;
+		 background-image: url(../images/black_circle.png);
+    background-repeat: no-repeat;
+	background-position-y:9px;
+}
+
+.fkxxhzbd_list li{
+		 background-image: url(../images/black_circle.png);
+    background-repeat: no-repeat;
+	background-position-y:9px;
+}
+.fkxxhzbd_list li::before {
+    content: "";
+    position: absolute;
+    left: 0;
+}
+
+.hyzs_list li a {
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.fk_dl dd::before, .fk_dl li::before {
+    content: "";
+    position: absolute;
+    left: 0;
+}
+.txtScroll-top li::before {
+    content: "";
+    position: absolute;
+    left: 0;
+}
+.tzgg_box li::before {
+    content: "";
+    left: 0;
+    position: absolute;
+    font-size: 18px;
+}
+.hyzs_list li::before {
+    content: "";
+    position: absolute;
+    left: 0;
+}

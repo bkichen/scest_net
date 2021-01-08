@@ -1,0 +1,88 @@
+body{
+	    background-image:url(../images/fk_top01.png);
+	    background-repeat: repeat-x;
+		background-position:top;
+}
+.tzgg_box{
+	width:49%;
+	float:left;
+	    padding: 0 0px;
+}
+
+.tzgg_box li {
+       text-align: left;
+    margin-bottom: 5px;
+    display: block;
+    position: relative;
+    padding-left: 20px;
+}
+.tzgg {
+    margin-top: 24px;
+    overflow: hidden;
+    background-color: #ffffff;
+}
+.zt_fy_xwfbh{
+	
+	margin-top:25px;
+}
+.fy_tu_top{
+	text-align:center;
+	margin-bottom:15px;
+	font-size:18px;
+	background-image:url("../images/xu_zt_line.png");
+	    height: 35px;
+    line-height: 35px;
+    color: white;
+	background-position: center;
+	    background-repeat: no-repeat;
+}
+.fy_tu_top span{
+    background-color: #ff9e04;
+    border-radius: 35px;
+	    padding: 5px 15px;
+}
+.fy_xwfbh_ul{
+	    width: 100%;
+    overflow: hidden;
+	
+}
+.column3mi2 li {
+
+}
+.scxd_ul dd {
+    float: left;
+    width: 50%;
+    margin-right: 0px;
+}
+
+.fy_xwfbh_ul ul li{
+float:left;
+width:49%;
+}
+
+.fy_xwfbh_p2 a{
+    font-size: 18px;
+}
+.fy_xwfbh_p1,.fy_xwfbh_p2{
+	text-align:center;
+}
+.fy_xwfbh_p1 a img{
+	width:100%;
+}
+.tzgg_box li p a {
+    font-size: 16px;
+    color: #ff0000;
+    float: right;
+	    text-indent: 0px;
+}
+.tzgg_box li a {
+   font-size: 18px;
+    color: #000;
+}
+
+.tzgg_box li::before {
+    content: "●";
+    left: 0;
+	position:absolute;
+	    font-size: 18px;
+}

@@ -1,0 +1,292 @@
+.headerNew{
+    height: 150px;
+    background-image: url("../images/touz2017_new.jpg");
+    background-repeat: no-repeat;
+}
+.headerLeft{
+    width: 650px;
+    height: 150px;
+
+}
+.headerLeft a{
+    display: block;
+    width: 100%;
+    height: 150px;
+}
+.headerRight{
+    width: 322px;
+    height: 150px;
+}
+.headLjie{
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 52px;
+    height: 43px;
+    line-height: 43px;
+}
+.headLjie ul li{
+    width: auto;
+    float: left;
+}
+.headLjie ul li+li{
+    padding-left: 5px;
+}
+.headLjie ul li a{
+    color: #f7d5bd;
+    /* color: rgba(255,255,255,0.75); */
+    font-size: 14px;
+    text-decoration: none;
+    float: left;
+    display: inline-block;
+    font-family: "microsoft yahei";
+}
+.headLjie ul .line {
+    font-size: 14px;
+    display: inline-block;
+    color: #f7d5bd;
+    font-family: "microsoft yahei";
+}
+.headSous {
+    width: 296px;
+    margin: 0 auto;
+}
+.sousuo2017ys {
+    height: 26px;
+    width: 264px;
+    padding-left: 5px;
+}
+.headSous span{
+    float: left;
+}
+/*headSecondary*/
+.headSecondary{
+    height: 32px;
+    line-height: 32px;
+}
+.headSecondary ul{
+    width: 980px;
+    float: left;
+    background-image: url(../images/20140806wj_24.jpg);
+    margin-left: 1px;
+}
+.headSecondary ul li{
+    width: 103.3px;
+    float: left;
+    text-align: center;
+}
+
+.headSecondary ul li a{
+    font-size: 14px;
+    color: #59503e;
+
+}
+.headSecondary ul .shuline{
+    width: 1px;
+    background-image: url(../images/20140806wj_22.jpg);
+    background-position: left;
+    background-repeat: no-repeat;
+    float: left;
+    height: 32px;
+}
+
+
+.headSecondary ul .syWth{
+    width: 50px;
+    text-align: center;
+}
+.img_leftCon img{
+    border: 0;
+    vertical-align: top;
+}
+.headSecondary ul .headSecondaryActiver{
+    background-image: url(../images/20200407100210.png);
+    height: 32px;
+    color: #FFFFFF;
+    font-size: 14px;
+    cursor: pointer;
+    display: block;
+    background-position: center;
+}
+.headSecondary ul .headSecondaryActiver a{
+    color: #FFFFFF;
+}
+.ziChannel {
+    color: #4a4a4a;
+    font-size: 14px;
+    line-height: 24px;
+    display:none;
+    text-align: center;
+}
+.ziChannel a{
+    color: #4a4a4a;
+    margin-right: 20px;
+}
+.ziChannel a:hover {
+    padding: 3px 3px;
+    background: url(../images/20140806wj_75.jpg) repeat-x center;
+    border: #f1b16c 1px solid;
+    height: 24px;
+    line-height: 24px;
+    color: #d21a17;
+    text-decoration: none;
+}
+
+.xxgk_font{
+    display: none;
+    position: absolute;
+}
+
+/*footer*/
+.FooterOne{
+    height: 38.4px;
+    line-height: 38.4px;
+    background-image: url("../images/20140806wj_257.jpg");
+}
+.FooterOne{
+    color: #FFF;
+    padding: 0px 16px;
+    font-size: 16px;
+}
+.FooterOne a{
+    color: #FFF;
+    font-size: 16px;
+    font-family: "ÃƒÂ¥Ã‚Â¾Ã‚Â®ÃƒÂ¨Ã‚Â½Ã‚Â¯ÃƒÂ©Ã¢â‚¬ÂºÃ¢â‚¬Â¦ÃƒÂ©Ã‚Â»Ã¢â‚¬Ëœ";
+    line-height: 24px;
+}
+/*footerFirst*/
+.FooterTwo{
+    /*margin-top: 22px;*/
+    background: white;
+    min-height: 95px;
+}
+.footerFirst{
+    width: 95px;
+    float: left;
+}
+.footerSecond{
+    width: 482px;
+    float: left;
+}
+.footerThree{
+    width: 274px;
+    float: right;
+}
+.footerFourth{
+    width: 120px;
+    float: right;
+}
+/*footerThree*/
+.footerThree ul li{
+    float:left;
+    width: 68px;
+    text-align: center;
+}
+.footerThree ul li a img{
+    margin-top:5px;
+}
+.footerThree ul li a p{
+    margin-top:8px;
+}
+
+.beian{
+    font-size: 12px;
+    font-family: "";
+}
+.beian a{
+    color: black;
+}
+.bg_footer{
+	background-image:url("../images/zhuye_wei20170111_08.jpg");
+	height:23px;
+}
+
+
+/*ÃƒÂ©Ã‚Â¦Ã¢â‚¬â€œÃƒÂ©Ã‚Â¡Ã‚ÂµÃƒÂ¤Ã‚Â¿Ã‚Â¡ÃƒÂ¦Ã‚ÂÃ‚Â¯ÃƒÂ¦Ã…Â Ã‚Â¥ÃƒÂ©Ã¢â€šÂ¬Ã‚Â*/
+
+/*syxxbsnew*/
+.syxxbsNew{
+    width: 100%;
+    border: 1px #e6e6e6 solid;
+}
+.xxbs_title{
+    height: 36px;
+    background-image: url("../images/20140806wj_244.jpg");
+    line-height: 36px;
+}
+.new_xxbs a{
+    color: #ca0b0c;
+    font-size: 14px;
+    padding-left: 14px;
+}
+.new_xxbs_more a{
+
+}
+.xxbs_body{
+    width: 100%;
+    padding: 10px;
+   
+}
+.xxbs_body_title{
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    background-image: url("../images/20140806wj_246.jpg");
+
+}
+.xxbs_body_title span{
+    width: 110px;
+    color: #980903;
+    font-weight: bold;
+    cursor: pointer;
+    text-align: center;
+}
+.xxbs_body_title .xxbs_activer{
+    background-image: url("../images/20140806wj_245.jpg");
+    color: #FFF;
+    font-weight: bold;
+    cursor: pointer;
+    text-align: center;
+
+}
+
+.xxbs_body_conta ul li{
+    width: 100%;
+    height: 25px;
+    border-bottom: #F00 1px dashed;
+    font-size: 12px;
+    line-height: 25px;
+}
+.xxbs_body_conta{
+    margin-top:6px;
+}
+/**footer*/
+.new_er_Footer{
+    width: 100%;
+    background: #FFF;
+    margin: 6px 0px 0px 0px;
+    border-top: 5px solid #cc0001;
+    padding-top: 1px;
+}
+.wei_yhred14c {
+	font-size: 14px;
+	line-height: 30px;
+	font-weight: bold;
+	color: #C30001;
+}
+.wei_yh13heis {
+	font-size: 12px;
+	line-height: 30px;
+	color: #282828;
+}
+.wei_red13x {
+	font-size: 12px;
+	line-height: 30px;
+	color: #B80604;
+}
+.wei_yh13heis a{
+        color:#282828;
+}
+.wei_yhred14c a{
+        color: #C30001;
+}
